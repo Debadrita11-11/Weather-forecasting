@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Build files
+dist/
+build/
+
+# Model and temporary files
+*.log
+.DS_Store
+Thumbs.db
